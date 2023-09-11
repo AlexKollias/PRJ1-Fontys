@@ -4,7 +4,7 @@
     text-align: center;
     margin: auto;
 }
-
+/* 
 .blackline {
     background-color: black;
     width: 110%;
@@ -13,6 +13,24 @@
     padding: 0.5px;
     margin-top: 10px;
     margin-left: -13px;
+} */
+
+.coButton {
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+
+    border: none;
+
+    font-size: 15px;
+    border-radius: 4px;
+
+    transition-duration: 0.2s;
+}
+
+.coButton:hover {
+    background-color: darkred;
+    color: white;
 }
 
 .parent {
@@ -23,6 +41,8 @@
     padding: 5px;
     margin: auto;
     width: 75%;
+
+    text-align: center;
 }
 
 .parent > div {
@@ -32,23 +52,29 @@
     
     padding-top: 15px;
 
+    background-color: lightblue;
+
 }
 
 .parent > div > img {
 
-    width: 250px;
-    max-width: 250px;
-    max-height:250px;
+    width: 290px;
+    max-width: 290px;
+    max-height: 290px;
 
     display: block;
-    margin-left: auto;
+    margin-left: -10px;
     margin-right: auto;
-
-    border-radius: 6px;
 }
 
-.h2 {
-    text-align: center;
+.parent > div > h2{
+    background-color: blue;
+    height: 50px;
+
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
 }
 
 .ButtonHub {
@@ -78,17 +104,23 @@
     color: white;
 }
 
-.body {
-    background-color: lightblue;
-}
+
 
 .FooterHub {
     background-color: lightgreen;
     text-align: center;
+    height: 75px;
+
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -5px;
 }
 
 .FooterHub > button{
     margin-right: 100px;
+    margin-top: 17px;
+
+
     border: none;
     border-radius: 3px;
     width: 150px;
@@ -101,4 +133,18 @@
 .FooterHub > button:hover {
     background-color: gray;
     color: white;
+}
+
+.pContainer{
+    background-color: green;
+}
+
+.info {
+    width:50%;
+    float: left;
+}
+
+.paragraph {
+    width:50%;
+    float: right;
 }
