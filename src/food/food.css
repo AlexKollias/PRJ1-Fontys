@@ -197,7 +197,7 @@ body { background-color: lightgreen ;}
 .rightFruit {
     width: 75%;
 
-    z-index: -2;
+    z-index: -1;
     position: absolute;
     transform: rotate(-90deg);
 
