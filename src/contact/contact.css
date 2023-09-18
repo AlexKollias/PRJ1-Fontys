@@ -47,8 +47,3 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
-@media (max-width: 768px) {
-    section {
-        max-width: 90%;
-    }
-}
