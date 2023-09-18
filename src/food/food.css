@@ -1,104 +1,252 @@
+html, body, head, footer { width: 100%; margin: auto;}
+
+button { text-decoration: none; }
+
+body { background-color: rgb(208, 205, 205) ;}
+.footer { background-color: lightgreen ;}
+
+.titeContainer {
+    max-width: 100%;
+    max-height: 100%;
+
+    height: auto;
+
+    padding-left: 20%;
+    padding-right: 20%;
+
+    /* background-color: rgb(96, 179, 96); */
+}
+
+
 .title {
-    background-color: green;
-    width: 200px;
+    width: auto;
+    
     text-align: center;
-    margin: auto;
-}
-
-.blackline {
-    background-color: black;
-    width: 110%;
-    height: 2px;
-
-    padding: 0.5px;
-    margin-top: 10px;
-    margin-left: -13px;
-}
-
-.parent {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(3, 300px);
-
-    padding: 5px;
-    margin: auto;
-    width: 75%;
-}
-
-.parent > div {
-    padding: 10px;
-    border: 5px solid;
+    margin-bottom: 20px;
+    
     border-radius: 6px;
     
-    padding-top: 15px;
-
-}
-
-.parent > div > img {
-
-    width: 250px;
-    max-width: 250px;
-    max-height:250px;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    border-radius: 6px;
-}
-
-.h2 {
-    text-align: center;
+    background-color: rgb(66, 142, 66);
+    color: rgb(0, 0, 0);
+    
+    font-size: 2vw;
 }
 
 .ButtonHub {
-    background-color: lightgreen;
-    padding: 15px;
+    position: -webkit-sticky;
+    position: sticky;
 
+    top: 0;
+    width: 75%;
+    height: auto;
+
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+
+    margin-right: 11%;
+    
+    /* background-color: rgb(133, 217, 133); */
+    background-color: rgb(66, 142, 66);
+    
     text-align: center;
+
+    border-radius: 4px;
+
+    z-index: 1;
 }
 
 .ButtonHub > button{
-    font-size: 20px;
-    width: 150px;
-    height: 35px;
-    margin-right: 100px;
+    text-decoration: none;
 
-    box-shadow: 2px 2px grey ;
+    font-size: 2vw;
+    width: 14vw;
+    height: 3vw;
+
+    padding: auto;
+
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
 
     border: none;
     background-color: rgb(234, 231, 231);
     border-radius: 3px;
 
-    transition-duration: 0.4s;
+    box-shadow: 0 3px 0 rgb(167, 166, 166);
+
+    transition-duration: 0.2s;
 }
 
-.ButtonHub > button:hover {
-    background-color: grey;
+.ButtonHub > button:active{
+   box-shadow: none;
+    transform: translateY(3px);
+    background-color: rgb(167, 166, 166);
+}
+
+.dotButton {
+    width: 10%;
+    margin-top: -10px;
+    margin-right: -100px;
+    background-color: white;
+}
+.coButton {
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+
+    position: absolute;
+    bottom: -10;
+    left: 30;
+    right: 30;
+
+    border: none;
+
+    font-size: 15px;
+    border-radius: 4px;
+
+    transition-duration: 0.2s;
+
+    font-size: 1.5vw;
+}
+
+.coButton:hover {
+    background-color: darkred;
     color: white;
 }
 
-.body {
-    background-color: lightblue;
-}
+.parent {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 34%);
+    grid-template-rows: repeat(3, 50%);
 
-.FooterHub {
-    background-color: lightgreen;
+    padding: 5px;
+    margin: auto;
+    width: 75%;
+
+    max-width: 900px;
+
+    height: auto;
+
+    align-items: center;
+
     text-align: center;
 }
 
-.FooterHub > button{
-    margin-right: 100px;
-    border: none;
-    border-radius: 3px;
-    width: 150px;
-    height: 35px;
-    font-size: 20px;
 
-    transition-duration: 0.4s;
+.parent > div {
+    padding: 10px;
+    /* border: 5px solid; */
+    border-radius: 6px;
+    
+    padding-top: 15px;
+
+    position: relative;
+
+    align-items: center;
+
+    height: 30vw;
+
+    background-color: rgb(125, 207, 125);
 }
 
-.FooterHub > button:hover {
-    background-color: gray;
-    color: white;
+.parent > div > img {
+
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    max-height: 250px;
+
+    margin-bottom: 10px;
+
+    display: block;
+
+    height: 20vw;
+}
+
+.parent > div > h2{
+    background-color: rgb(85, 197, 85);
+
+    height: auto;
+
+    border-radius: 5px;
+
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    font-size: 1.5vw;
+    
+}
+
+.leftFruit {
+    width: 75%;
+
+    z-index: -1;
+    position: absolute;
+    transform: rotate(90deg);
+    
+    margin-top: 20%;
+    margin-left: -27%;
+}
+
+.leftFruit > img {
+    width: 70%;
+    height: 40%;
+}
+
+.rightFruit {
+    width: 75%;
+
+    z-index: -1;
+    position: absolute;
+    transform: rotate(-90deg);
+
+    margin-left: 52%;
+    margin-top: 16%;
+}
+
+.rightFruit > img {
+    width: 70%;
+    height: 40%;
+}
+
+.pc {
+
+    
+    margin: auto;
+    margin-top: 5%;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 100vw;
+    height: 10vw;
+
+    background-color: rgb(162, 240, 162);
+}
+
+.info {
+    font-size: 18px;
+    width:50%;
+    float: left;
+    text-align: left;
+    height: 100px;
+}
+
+.paragraph {
+    font-size: 20px;
+    width:50%;
+    float: right;
+    height: 100px;
+}
+
+.info,.paragraph {
+    margin-top: 5%;
+    font-size: 1.5vw;
+
+    height: 10%;
+
 }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="checkout.css">
+    <title>CheckOut</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <h1 style="font-family:verdana; display: inline-block">Secured Checkout</h1>
+    <img src="https://cdn0.iconfinder.com/data/icons/popular-badges-twotone/48/Paul-16-512.png" alt="securedimg" height="100" width="100">
+    <br><hr>
+    <h2>Delivery details</h2> <br>
+<form>
+    <div class="boxes">
+        <div class="boxes1">
+            <label for="email">N</label>
+            <input type="text" id="email" name="email" placeholder="E-mail" optional><br><br>
+            <label for="address">*</label>
+            <input type="text" id="address" name="address" placeholder="Address" required><br><br>
+        </div>
+        <div class="boxes2">
+             <label for="first_name">*</label>
+             <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+             <label for="last_name">*</label>
+             <input type="text" id="last_name" name="last_name" placeholder="Last Name" required><br><br>
+             <label for="address2">N</label>
+             <input type="text" id="address2" name="address2" placeholder="Address 2" optional>
+             <label for="postal_code">*</label>
+             <input type="text" id="postal_code" name="postal_code" placeholder="Postal Code" required><br><br>
+             <label for="country">*</label>
+             <input type="text" id="country" name="country" placeholder="Country" required>
+             <label for="city">*</label>
+             <input type="text" id="city" name="city" placeholder="City" required><br><br>
+             <label for="district">N</label>
+             <input type="text" id="district" name="district" placeholder="District" optional>
+             <label for="pnr">*</label>
+             <input type="text" id="pnr" name="pnr" placeholder="Phone number" required><br><br>
+        </div> 
+        <div class="boxes3">
+            <label for="ap">N</label>
+             <input type="text" id="ap" name="ap" placeholder="Apartment, Unit, etc." optional><br><br>
+        </div>
+    </div>
+    <p4><i><pre>                                     * - need to fill in the space
+                                     N - not necessary to fill in the space    
+    </pre></i></p4>
+    <div class="b1">
+        <button type="submit">Confirm</button><br><br><br><br><br><br><br><br>
+    </div>
+</form>
+    <hr>
+    <h2>Delivery options</h2><br>
+    <div class="button-container">
+        <button type="button" class="delivery-button" >Standard Delivery: 3-6 business day(s)</button>
+        <button type="button" class="delivery-button" >Express Delivery: 1 business day(s)</button>
+        <button type="button" class="delivery-button" >In-person Delivery: 3-6 business day(s)</button>
+    </div>
+    <p4><i><pre>
+                                Standard Delivery: 3.5 euros
+                                Express Delivery: 8 euros
+                                In-person Delivery: 25 euros
+    </pre></i></p4>
+    <br><br>
+    </div>
+    <hr>
+    <h2>Payment Methods</h2><br>
+    <div class="images">
+        <div><img src="https://static.vecteezy.com/system/resources/previews/022/101/081/original/paypal-logo-transparent-free-png.png" alt="Paypal Icon" height="180" width="200" title="Paypal card"><button type="button" class="b3"> USE </button></div>
+        <div><img src="data:image/png;base64,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" alt="Credit Cards" height="180" width="200" title="Visa card" ><button type="button" class="b3"> USE </button></div>
+        <div><img src="https://media.istockphoto.com/id/882085928/es/vector/blockchain-bitcoin-s%C3%ADmbolo-icono-vector.jpg?s=612x612&w=0&k=20&c=lHgLZTCQwOH1E6AL7X5VDGzsS72_OkSfpCbEC1hh5gA=" height="180" width="200" title="BTC wallet"><button type="button" class="b3" > USE </button></div>
+    </div>
+    
+</body>
+</html>
+
