@@ -215,6 +215,8 @@ body { background-color: rgb(208, 205, 205) ;}
 
 .pc {
 
+    
+    margin: auto;
     margin-top: 5%;
 
     max-width: 100%;
@@ -244,4 +246,7 @@ body { background-color: rgb(208, 205, 205) ;}
 .info,.paragraph {
     margin-top: 5%;
     font-size: 1.5vw;
+
+    height: 10%;
+
 }

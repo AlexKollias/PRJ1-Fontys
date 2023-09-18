@@ -12,7 +12,7 @@ body{
     text-align: center;
 }
 .boxes label{
-    color: #e2725B;
+    color: red;
 }
 .boxes1 input[type="text"] {
     height: 40px;
@@ -52,7 +52,7 @@ h2 {
     padding: 10px;
 }
 p4 {
-    color: #e2725B;
+    color: red;
 }
 .b1 {
     display: flex;

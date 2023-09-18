@@ -4,51 +4,77 @@
 }
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #cd7e7e;
+    background-color: #74d195;
     color: #333;
-    padding: 10px;
+    padding: 5vw;
 }
 header {
-    background-color: #ae3d37;
+    background-color: #e2725B;
     color: #fff;
-    padding: 10px 0;
+    padding: 2vw;
     text-align: center;
 }
 section {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 200px;
-    margin: 70px auto;
-    max-width: 1000px;
+    border-radius: 1.39vw;
+    box-shadow: black;
+    padding: 20vw;
+    margin: 2vw auto;
+    max-width: 200vx;
+    background-image: url(wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text-container{
+    border-radius: 2vw;
+    width: 25vw;
+    height: 13vw;
+    background-color: white;
+    padding: 1vw;
+    margin-left: -10vw;
+    
+}
+.image-container{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    position: absolute; 
+    top: 25vw;
+    right: 10vw;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 section h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    margin-left: -100px;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    margin-left: 3vw;
 }
 section p1 {
-    margin-bottom: 100px;
-    color: #ae3d37;
-    margin-left: -160px;
+    line-height: 2vw;
+    margin-bottom: 1vw;
+    color: #e2725B;
+    margin-left: 1vw;
+    font-size: 1vw;
 }
 section p {
-    margin-bottom: 10px;
+    line-height: 1vw;
+    margin-bottom: 1vw;
     color:#000000;
-    margin-left: -100px;
+    margin-left: 3vw;
+    font-size: 1vw;
 }
 address a {
     color: #ae3d37;
     text-decoration: none;
 }
 footer {
-    background-color: #ae3d37;
+    background-color: #e2725B;
     color: #fff;
-    padding: 10px 0;
+    padding: 1vw;
     text-align: center;
-}
-@media (max-width: 768px) {
-    section {
-        max-width: 90%;
-    }
 }
