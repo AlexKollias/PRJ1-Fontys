@@ -1,0 +1,101 @@
+body{
+    background-color: #e2725B;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.boxes{
+    
+    text-align:center;
+}
+.boxes input[type="text"]{
+    background-color:white;
+    text-align: center;
+}
+.boxes label{
+    color: #e2725B;
+}
+.boxes1 input[type="text"] {
+    height: 40px;
+    width: 1100px;
+}
+.boxes2 input[type="text"] {
+    width:470px;
+    height: 45px;
+    
+}
+.boxes3 input[type="text"]{
+    height: 40px;
+    width: 1100px;
+}
+h1{
+    text-align:left;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.images > div {
+    padding: 10px;
+    border: 3px solid;
+    padding-top: 15px;
+    background-color: white;
+    float: left;
+    padding: 5px;
+    padding: 10px
+
+}
+.images{
+    padding: 10px;
+}
+p4 {
+    color: #e2725B;
+}
+.b1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 25px;
+  }
+.b1 button {
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: green;
+}
+.b1 button:hover{
+    background-color:  #e2725B;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.delivery-button {
+    padding: 100px 100px;
+    margin: 10px; 
+    background-color:green; 
+    color: black;
+    border: 7px solid;
+    font-size: 30px;
+}
+
+.delivery-button:hover {
+    background-color:  #e2725B; 
+}
+.images > div {
+    margin: 110px; 
+    border: 5px solid;
+}
+.b3{
+    text-align: center;
+    background-color: green;
+    align-items: center;
+}
+.b3:hover { 
+    background-color:  #e2725B;
+}
