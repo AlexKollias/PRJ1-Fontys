@@ -1,23 +1,24 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: rgb(6, 160, 109);
     margin: 0;
     padding: 0;
 }
 
 
 header {
-    background: #262628;
-    color: white;
+    background: rgb(6, 160, 109);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
 }
 
 
 .navbar {
-    background-color: #555;
+    background-color: rgb(226, 114, 91);
     overflow: auto;
+    border-radius: 5px;
 }
 
 .navbar a {
@@ -38,7 +39,7 @@ header {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +72,7 @@ header {
     bottom: 0;
     width: 50%; 
     height:300px;
-    background-color: rgb(71, 70, 77);
+    background-color: rgb(226, 114, 91);
     color: rgb(255, 255, 255);
     text-align: center;
     
@@ -83,7 +84,7 @@ header {
     bottom: 0;
     width: 50%; 
     height: 300px;
-    background-color: rgb(71, 70, 77);
+    background-color: rgb(226, 114, 91);
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -106,9 +107,10 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-    background-color: #333;
+    background-color: rgb(255, 255, 254);
     color: #fff;
     cursor: pointer;
+    color: #000;
 }
 
 /* Remove outline for all elements */
