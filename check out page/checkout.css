@@ -12,7 +12,7 @@ body{
     text-align: center;
 }
 .boxes label{
-    color:red;
+    color: #e2725B;
 }
 .boxes1 input[type="text"] {
     height: 40px;
@@ -52,7 +52,7 @@ h2 {
     padding: 10px;
 }
 p4 {
-    color:red;
+    color: #e2725B;
 }
 .b1 {
     display: flex;
@@ -67,7 +67,7 @@ p4 {
     background-color: green;
 }
 .b1 button:hover{
-    background-color: red;
+    background-color:  #e2725B;
 }
 .button-container{
     display: flex;
@@ -85,7 +85,7 @@ p4 {
 }
 
 .delivery-button:hover {
-    background-color: red; 
+    background-color:  #e2725B; 
 }
 .images > div {
     margin: 110px; 
@@ -97,5 +97,5 @@ p4 {
     align-items: center;
 }
 .b3:hover { 
-    background-color: red;
+    background-color:  #e2725B;
 }
