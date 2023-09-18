@@ -27,11 +27,11 @@ header {
     padding: 15px;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .navbar a:hover {
-    background-color: #000;
+    background-color: #453e3e;
 }
 
 
@@ -102,7 +102,7 @@ input[type="submit"] {
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #434141;
-    border-radius: 5px;
+    border-radius: 4px;
     text-align: left;
 }
 
