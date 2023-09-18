@@ -3,6 +3,57 @@ body{
     background-size: cover; 
     background-repeat: no-repeat;
 }
+.ButtonHub {
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 0;
+    width: 75%;
+    height: auto;
+
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+
+    margin-right: 11%;
+    
+    background-color: #e2725B;
+    
+    text-align: center;
+
+    border-radius: 4px;
+
+    z-index: 1;
+}
+.ButtonHub > button{
+    text-decoration: none;
+
+    font-size: 2vw;
+    width: 14vw;
+    height: 3vw;
+
+    padding: auto;
+
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+
+    border: none;
+    background-color: rgb(234, 231, 231);
+    border-radius: 3px;
+
+    box-shadow: 0 3px 0 rgb(167, 166, 166);
+
+    transition-duration: 0.2s;
+}
+
+.ButtonHub > button:active{
+   box-shadow: none;
+    transform: translateY(3px);
+    background-color: rgb(167, 166, 166);
+}
+
 .boxes{
     
     text-align:center;
@@ -64,7 +115,7 @@ p4 {
     font-size: 25px;
     padding: 20px;
     margin-top: 10px;
-    background-color: green;
+    background-color: lightgreen;
 }
 .b1 button:hover{
     background-color:  #e2725B;
@@ -78,7 +129,7 @@ p4 {
 .delivery-button {
     padding: 100px 100px;
     margin: 10px; 
-    background-color:green; 
+    background-color: lightgreen; 
     color: black;
     border: 7px solid;
     font-size: 30px;
@@ -93,7 +144,7 @@ p4 {
 }
 .b3{
     text-align: center;
-    background-color: green;
+    background-color: lightgreen;
     align-items: center;
 }
 .b3:hover { 
